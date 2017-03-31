@@ -10,7 +10,7 @@ namespace Microsoft.CodeAnalysis.ExpressionEvaluator.UnitTests
     {
         internal static readonly Resolver CSharpResolver = CreateFrom(new Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.CSharpFunctionResolver());
         internal static readonly Resolver VisualBasicResolver = CreateFrom(new Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.VisualBasicFunctionResolver());
-
+// ddeee
         private readonly bool _ignoreCase;
         private readonly Guid _languageId;
         private readonly Dictionary<Process, List<Request>> _requests;
